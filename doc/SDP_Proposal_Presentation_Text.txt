@@ -1,0 +1,182 @@
+Senior Project Proposal Draft Presentation Script (10 Slides)
+Project: AI-Powered Indoor Surveillance Robot
+Student: Peeranat K.
+Program: Faculty of Information Technology, Asia-Pacific International University
+
+============================================================
+Slide 1: Title
+============================================================
+- Senior Project Proposal Draft
+- Project Title: AI-Powered Indoor Surveillance Robot
+- Student Name: Peeranat K.
+- Institution: Asia-Pacific International University
+- Semester/Academic Year: 2025-2026, Semester 2
+- Approval Action Reference: FITB2020-XX 4/16
+
+============================================================
+Slide 2: Introduction + Document Structure
+============================================================
+Introduction summary:
+- Problem: Main hall needs monitoring after 10:00 PM.
+- Current issue: Manual patrols are periodic and can miss incidents.
+- Proposed solution: Autonomous AI surveillance robot using Raspberry Pi.
+- Importance: Faster alerts, better coverage, supports campus innovation.
+
+Document structure included in this presentation:
+- 1 Introduction
+- 1.1 Project's Objectives
+  - 1.1.1 General Objective
+  - 1.1.2 Specific Objectives
+- 2 Related Works
+- 3 Preliminary Investigation (3.1 to 3.9)
+
+============================================================
+Slide 3: 1.1 Project Objectives
+============================================================
+1.1.1 General Objective:
+- Design, develop, and deploy an AI-powered autonomous indoor surveillance robot
+  that patrols a university main hall, detects human presence, and sends alerts
+  during restricted hours.
+
+1.1.2 Specific Objectives (clear and measurable):
+1) Build robot platform: Raspberry Pi 4 + 4WD + ultrasonic obstacle avoidance.
+2) Implement human detection in real time.
+3) Train zone recognition model.
+4) Implement virtual boundary detection.
+5) Send SMTP alert with image and timestamp within <= 30 seconds.
+6) Implement layered local-control + AI decision architecture.
+7) Evaluate performance:
+   - Human detection accuracy >= 85%
+   - Zone recognition accuracy >= 80%
+   - Patrol cycle <= 15 minutes
+
+============================================================
+Slide 4: 2 Related Works
+============================================================
+- Knightscope K5: Strong surveillance, but expensive and outdoor-oriented.
+- Cobalt Robotics: Good indoor patrol, but costly and service-dependent.
+- AI human-detection projects: Good detection, mostly fixed-camera setups.
+- Raspberry Pi surveillance projects: Low-cost but often stationary.
+
+Gap identified:
+- Few low-cost systems combine mobile indoor patrol + zone recognition +
+  virtual boundary + automatic alerting.
+
+Proposed contribution:
+- A student-budget, university-focused, autonomous indoor patrol solution.
+
+============================================================
+Slide 5: 3.1 Company Profile + 3.2 Organizational Chart
+============================================================
+3.1 Company Profile
+- Organization: Asia-Pacific International University (AIU)
+- Address: 195 Moo 3, Muak Lek, Saraburi 18180, Thailand
+- Line of Business: Higher Education
+- Company Contact:
+  - Phone: (+66) 036 720 777
+  - Email: info@apiu.edu
+
+Stakeholders and contacts:
+- Campus Security Department: sweerakoon@apiu.edu
+- Faculty of Information Technology: deanit@apiu.edu
+
+3.2 Organizational Chart (project-relevant units)
+- Faculty of IT: Academic supervision
+- Campus Security: Primary user/stakeholder
+
+============================================================
+Slide 6: 3.3 Mission/Goal + 3.4 Project Request + 3.5 Problem Description
+============================================================
+3.3 Mission/Goal alignment:
+- Promote research and innovation.
+- Improve operational effectiveness and efficiency.
+- Project aligns by applying AI robotics for real campus security needs.
+
+3.4 Project Request:
+- Initiated as Senior Project (IT483/IT484).
+- Originated from need to improve hall security after 10:00 PM.
+- Proposed by student with academic and stakeholder support.
+
+3.5 Description of the Problem:
+- Manual nighttime monitoring is periodic and limited.
+- Core issues:
+  - Inconsistent coverage
+  - Limited simultaneous visibility
+  - Delayed detection
+  - Fatigue-related reliability issues
+- Opportunity: Add autonomous AI patrol to support staff.
+
+============================================================
+Slide 7: 3.6 Project Scopes and Constraints
+============================================================
+In scope:
+- Autonomous indoor patrol
+- Human detection
+- Zone recognition
+- Virtual boundary detection
+- Obstacle avoidance
+- Email alerts with image + timestamp
+- Activity logging
+
+Out of scope:
+- Outdoor operation
+- Facial recognition/identity verification
+- Full live remote dashboard
+- Full integration with all existing CCTV systems (this phase)
+
+Quantitative requirements:
+- Human detection accuracy >= 85%
+- Zone recognition accuracy >= 80%
+- Email alert latency <= 30 seconds
+- Patrol cycle <= 15 minutes
+- Processing latency <= 200 ms/frame (target)
+
+Constraints:
+- Limited budget and hardware resources
+- SDP timeline limits
+- WiFi dependency for email alerts
+- Single-student development capacity
+
+============================================================
+Slide 8: 3.7 Expected Business Benefits
+============================================================
+- Better security coverage during restricted hours
+- Faster incident response via automated alerts
+- More consistent monitoring with less fatigue effect
+- Better evidence collection using timestamped alert images
+- Demonstrates institutional AI innovation capability
+
+============================================================
+Slide 9: 3.8 Expected System Capabilities
+============================================================
+Layered capabilities:
+- Layer 0: Obstacle avoidance
+- Layer 1: Autonomous patrol navigation
+- Layer 2: Virtual boundary enforcement
+- Layer 3: Human detection + alert generation
+- Layer 4: Zone recognition
+- Layer 5: AI-assisted high-level decision support
+- Cross-layer: Logging and audit trail
+
+============================================================
+Slide 10: 3.9 Planning (Gantt) + Closing
+============================================================
+Planned timeline summary:
+- Weeks 1-4: Proposal preparation and approval
+- Weeks 5-8: Hardware assembly and movement control
+- Weeks 9-12: Camera integration and data collection
+- Weeks 13-14: Model training and initial testing
+- Week 15: IT483 report and presentation submission
+- Weeks 16-19: Defense preparation and presentation
+
+Gantt chart requirement:
+- Include a visual Gantt chart synchronized with official schedule (page 14).
+- Show milestones and deliverables per week.
+
+Closing:
+- Proposal status: Draft ready for committee review.
+- Next step: Finalize contact details and insert final Gantt visual.
+- Thank you.
+
+Short closing script:
+"This proposal presents a feasible, measurable, and stakeholder-relevant AI surveillance solution for campus security. I welcome your feedback and approval comments."

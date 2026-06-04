@@ -1,0 +1,16 @@
+[Unit]
+Description=PiNat Person Detection Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Documents/PiNat
+EnvironmentFile=/home/pi/Documents/PiNat/.env
+ExecStart=/home/pi/Documents/PiNat/.venv/bin/python3 /home/pi/Documents/PiNat/src/main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
