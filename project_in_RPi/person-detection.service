@@ -1,0 +1,16 @@
+[Unit]
+Description=Raspberry Pi Person Detection Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/project_in_RPi
+EnvironmentFile=/home/pi/project_in_RPi/.env
+ExecStart=/home/pi/project_in_RPi/.venv/bin/python3 /home/pi/project_in_RPi/rpi.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
