@@ -15,4 +15,4 @@ source .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 
-echo "Install completed. Copy .env.example to .env and fill BOT_TOKEN + CHAT_ID."
+echo "Install completed. Copy .env.example to .env and fill BACKEND_URL + ROBOT_API_KEY."
